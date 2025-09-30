@@ -1,6 +1,4 @@
 import React from "react";
-import { Button } from "react-bootstrap";
-import { Container, Row, Col } from "react-bootstrap";
 import "./App.css";
 import { ChangeType } from "./components/ChangeType";
 import { RevealAnswer } from "./components/RevealAnswer";
