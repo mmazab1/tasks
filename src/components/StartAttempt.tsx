@@ -18,7 +18,7 @@ export function StartAttempt(): React.JSX.Element {
         <div>
             Attempts left: <strong>{attempts}</strong>
             <Button onClick={startQuiz} disabled={inProgress || attempts === 0}>
-                startQuiz
+                start Quiz
             </Button>
             <Button onClick={stopQuiz} disabled={!inProgress} className="me-2">
                 Stop Quiz
