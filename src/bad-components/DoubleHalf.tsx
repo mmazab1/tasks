@@ -4,6 +4,7 @@ import { useDoubleHalfState } from "./DoubleHalfState";
 
 export function DoubleHalf(): React.JSX.Element {
     const { dhValue, setDhValue } = useDoubleHalfState();
+
     return (
         <div>
             <h3>Double Half</h3>
