@@ -19,9 +19,7 @@ export function CheckAnswer({
                 placeholder="Enter your answer"
             />
             <span>
-                {userAnswer === "" ?
-                    ""
-                : userAnswer === expectedAnswer ?
+                {userAnswer === expectedAnswer && userAnswer !== "" ?
                     "✔️"
                 :   "❌"}
             </span>
