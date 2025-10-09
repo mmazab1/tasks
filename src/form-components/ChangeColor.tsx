@@ -23,6 +23,7 @@ export function ChangeColor(): React.JSX.Element {
                         key={color}
                         type="radio"
                         name="colorOptions"
+                        value={color}
                         onChange={() => {
                             setSelectedColor(color);
                         }}
